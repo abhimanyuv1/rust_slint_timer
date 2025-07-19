@@ -3,7 +3,7 @@ mod timer;
 use std::rc::Rc;
 use std::cell::RefCell;
 use slint::ComponentHandle;
-use timer::{TimerLogic, TimerState};
+use timer::TimerLogic;
 
 slint::include_modules!();
 
