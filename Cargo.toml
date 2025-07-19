@@ -1,0 +1,24 @@
+[package]
+name = "rust-slint-timer"
+version = "0.1.0"
+edition = "2024"
+description = "A desktop timer application built with Rust and Slint UI framework"
+authors = ["Timer App Developer"]
+license = "MIT"
+repository = "https://github.com/example/rust-slint-timer"
+keywords = ["timer", "desktop", "slint", "rust", "gui"]
+categories = ["gui"]
+
+[lib]
+name = "rust_slint_timer"
+path = "src/lib.rs"
+
+[[bin]]
+name = "rust-slint-timer"
+path = "src/main.rs"
+
+[dependencies]
+slint = "1.8"
+
+[build-dependencies]
+slint-build = "1.8"
